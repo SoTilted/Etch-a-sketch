@@ -36,7 +36,8 @@ function createGrid(Size){
   const button = document.getElementById('button')
   button.addEventListener('click',()=>{
     let size=parseInt(prompt("Choose size of grid!(max size is 100.)"));
-    while( size>100 || size <=0 ){
+    console.log(size);
+    while( size>100 || size <=0 || isNaN(size)){
         size=parseInt(prompt("Bad size input, please try again."));
     }
     container.innerHTML='';
