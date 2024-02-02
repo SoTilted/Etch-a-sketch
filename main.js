@@ -15,7 +15,6 @@ const buttonClickedAndHovered = (e) => {
       else{
         for(let i=0; i<3; i++){
           if(parseFloat(rgbValues[i])!=0.0){
-            console.log(rgbValues[i]);
             rgbValues[i]=rgbValues[i]-25.5;
           }
         } 
@@ -28,7 +27,6 @@ const buttonClickedAndHovered = (e) => {
       else{
         for(let i=1; i<3; i++){
           if(parseFloat(rgbValues[i])!=0.0){
-            console.log(rgbValues[i]);
             rgbValues[i]=rgbValues[i]-25.5;
           }
         } 
@@ -41,7 +39,6 @@ const buttonClickedAndHovered = (e) => {
       else{
         for(let i=0; i<3; i+=2){
           if(parseFloat(rgbValues[i])!=0.0){
-            console.log(rgbValues[i]);
             rgbValues[i]=rgbValues[i]-25.5;
           }
         } 
