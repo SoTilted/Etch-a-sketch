@@ -1,4 +1,9 @@
+html {
+  height: 98%;
+  touch-action: none;
+}
 body {
+  touch-action: none;
     background-color: antiquewhite;
     display: flex;
     width: 100%;
@@ -9,10 +14,11 @@ body {
 }
 
 .container {
-    border: 1px solid black ;
+  border: 1px solid black;
     display: flex;
-    width: 960px;
-    height: 960px;
+  width: 50vw;
+  height: 50vw;
+
     flex-wrap: wrap;
 }
 .grid-container {
@@ -22,9 +28,13 @@ body {
 
 button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
-    margin-bottom: 40px;
-    min-width: 170px;
-    padding: 8px 32px 8px 32px;
+  font-size: 1em;
+  padding: 12px;
     font-weight: 700;
+  margin: 5px;
+}
+
+.buttons {
+    margin-bottom: 25px;
+
 }
