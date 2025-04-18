@@ -2,6 +2,6 @@
 A simple sketchpad/Etch-A-Scetch page made for The Odin Project.
 
 # TODO
-Make it responsive for more devices (e.g phones)
-
+Maybe refactor the project completely using my latest skills like **React**, **Typescript** etc.
+## Live site
 Live Page: https://sotilted.github.io/Etch-a-sketch/
